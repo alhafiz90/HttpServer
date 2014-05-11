@@ -45,5 +45,5 @@ class RequestHandler
     end
   end
 end
-handler= RequestHandler.new("127.0.0.1", 7200, "/home/abdullah.hafiz/All_Ruby_Project/Webserver/")
+     handler= RequestHandler.new("127.0.0.1", 7200, "/home/abdullah.hafiz/All_Ruby_Project/Webserver/")
 handler.handle_client
